@@ -11,6 +11,7 @@ import {
   CartesianGrid,
   Bar,
 } from "recharts";
+import Project from "./project";
 
 const App = () => {
   const data = [
@@ -75,6 +76,7 @@ const App = () => {
           <Bar dataKey="Money" fill="#50a22a" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
+      <Project />
     </div>
   );
 };
